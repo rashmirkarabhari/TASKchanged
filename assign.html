@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Wordle</title>
+  <!--<meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale = 1.0">-->
+
+  <link rel="stylesheet" href="assign.css">
+  <script src="assign.js"></script>
+</head>
+
+<body>
+<div id="board">
+  <h1>Guess the Game</h1>
+  <h3 id="LetterCount"></h3>
+  <div  id="inboard"></div>
+  <div id="outboard">
+    <h2>Remaining Guesses: <span id="attempt">10</span></h2>
+
+    <h2>Wrong Letters: <span id="wrong"></span></h2>
+    <h3 id="message"></h3>
+
+  </div>
+  <button onclick="location.reload();">Reset Game</button>
+</div>
+
+</body>
+</html>
